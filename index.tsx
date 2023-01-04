@@ -32,10 +32,7 @@ export default function Home() {
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl font-burtons text-white'>DevelopedByTerrill</h1>
               <ul className='flex items-center'>
-                <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer'/>
-                </li>
-                <li><a href="#" className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>Resume</a></li>
+                <li><a href="https://github.com/terrillhilliard" className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>GitHub</a></li>
               </ul>
             </nav>
             <div className='text-center p-10'>
@@ -65,8 +62,6 @@ export default function Home() {
               </h3>
               <p className='font-burtons text-md py-2 leading-8 pb-20 text-center md:text-xl max-w-lg mx-auto text-white'>
               As a reliable and friendly software developer and technical support professional, I have demonstrated my ability to quickly learn and master new concepts.
-              I possess hands-on experience in resolving technical issues and providing support to end users. 
-              My technical skills include proficiency in HTML5, CSS3, and Javascript. 
               </p>
             </div>
             <div className='lg:flex gap-10'>
@@ -74,24 +69,21 @@ export default function Home() {
               <Image src={design} width={100} height={100} className='mx-auto pb-10' alt="A beautiful landscape with mountains and a lake"></Image>
               <h3 className='text-lg font-burtons font-bold text-teal-600'>Beautiful Designs</h3>
               <p className='py-2 text-gray-600 font-burtons'>
-              A particular expertise in using frameworks like Bootstrap and Tailwind CSS to create responsive and visually appealing user interfaces. 
-              Skilled in collaborating with cross-functional teams to deliver high-quality products on time and within budget.
+              A particular expertise in using frameworks like Bootstrap and Tailwind CSS to create responsive and visually appealing user interfaces.
               </p>
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-white'>
               <Image src={code} width={100} height={100} className='mx-auto pb-10' alt="A beautiful landscape with mountains and a lake"></Image>
               <h3 className='text-lg font-burtons font-bold text-teal-600'>Coding</h3>
               <p className='py-2 text-gray-600 font-burtons'>
-              As a front-end developer with 3 years of experience, I have a strong foundation in HTML, CSS, JavaScript, and Python; also proficiency in frameworks like React and Angular. 
-              My understanding of responsive design and user experience principles allows me to build interfaces that are both functional and visually appealing.
+              As a front-end developer with 3 years of experience, I have a strong foundation in HTML, CSS, JavaScript, and Python; also proficiency in frameworks like React and Angular.
               </p>
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-white'>
               <Image src={consulting} width={100} height={100} className='mx-auto pb-10' alt="A beautiful landscape with mountains and a lake"></Image>
               <h3 className='text-lg font-burtons font-bold text-teal-600'>Customer Satisfaction</h3>
               <p className='py-2 text-gray-600 font-burtons'>
-              Strong focus on customer satisfaction and a track record of building intuitive and visually appealing user interfaces. 
-              Able to effectively communicate with clients and stakeholders to understand their needs and deliver high-quality products that meet their expectations. 
+              Strong focus on customer satisfaction and a track record of building intuitive and visually appealing user interfaces. Able to effectively communicate with clients and deliver high-quality products. 
               </p>
               </div>
             </div>
@@ -101,31 +93,29 @@ export default function Home() {
               <h3 className='text-3xl py-1 pt-20 text-center md:text-xl max-w-lg mx-auto font-burtons font-bold  text-teal-600 '>Portofolio</h3>
               <p className="font-burtons text-md py-2 leading-8 pb-20 text-center md:text-xl max-w-lg mx-auto text-white">
               Since the beginning of my journey as a freelance designer and
-              developer, I have done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              developer, I have done remote work for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/2 flex-1'>
-                <Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web2} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/cv"><Image src={web2} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/drumkit"><Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/dicegame"><Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web5} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/simongame"><Image src={web5} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
