@@ -1,4 +1,4 @@
-Access the website - https://terrillhilliardcv.vercel.app/
+Access the website - https://terrillhilliard.vercel.app/
 
 This portfolio web app was created using Next.js, a popular framework for building server-rendered React applications. By utilizing server-side rendering, this app is able to provide a seamless and efficient experience for users.
 
