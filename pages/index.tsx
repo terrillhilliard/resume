@@ -110,22 +110,22 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/2 flex-1'>
-                <Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web2} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/cv"><Image src={web2} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/drumkit"><Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/dicegame"><Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web5} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/simongame"><Image src={web5} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image>
+                <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
