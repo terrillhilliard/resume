@@ -83,7 +83,7 @@ export default function Home() {
               <Image src={consulting} width={100} height={100} className='mx-auto pb-10' alt="A beautiful landscape with mountains and a lake"></Image>
               <h3 className='text-lg font-burtons font-bold text-teal-600'>Customer Satisfaction</h3>
               <p className='py-2 text-gray-600 font-burtons'>
-              Strong focus on customer satisfaction and a track record of building intuitive and visually appealing user interfaces. Able to effectively communicate with clients and deliver high-quality products. 
+              Strong focus on customer satisfaction and a track record of building intuitive and visually appealing user interfaces. 
               </p>
               </div>
             </div>
