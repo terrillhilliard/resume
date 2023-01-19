@@ -30,8 +30,9 @@ export default function Home() {
         <main className="bg-gray-900 px-10 md:px-20 lg:px-40">
           <section className='min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
-              <h1 className='text-xl font-burtons text-white'>DevelopedByTerrill</h1>
+              <h1 className='text-xl font-burtons text-white'>thill</h1>
               <ul className='flex items-center'>
+              <li><a href='https://www.linkedin.com/in/terrill-hilliard-7b3637254/' className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>Resume</a></li>
                 <li><a href="https://github.com/terrillhilliard" className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>GitHub</a></li>
               </ul>
             </nav>
@@ -40,7 +41,7 @@ export default function Home() {
                 Terrill Hilliard
               </h2>
               <h3 className='text-2xl py-2 font-burtons md:text-3xl text-white'>
-                Front-End Developer.
+                Software Developer.
               </h3>
               <p className='font-burtons text-md py-5 leading-8 md:text-xl max-w-lg mx-auto text-white'>
                 Freelancer providing user-friendly and responsive mobile and web applications, join me below!
@@ -91,11 +92,9 @@ export default function Home() {
           <section>
             <div>
               <h3 className='text-3xl py-1 pt-20 text-center md:text-xl max-w-lg mx-auto font-burtons font-bold  text-teal-600 '>Portofolio</h3>
+              <br />
               <p className="font-burtons text-md py-2 leading-8 pb-20 text-center md:text-xl max-w-lg mx-auto text-white">
-              Since the beginning of my journey as a freelance designer and
-              developer, I have done remote work for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              As a software developer, I have a strong understanding of various programming languages and technologies. I am able to design, develop, and maintain software applications for various platforms and systems. I am experienced in both front-end and back-end development. 
             </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
