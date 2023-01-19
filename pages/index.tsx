@@ -118,7 +118,7 @@ export default function Home() {
                 <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <a href=""><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+                <a href="https://terrillweather.herokuapp.com/"><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
