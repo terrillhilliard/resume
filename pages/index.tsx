@@ -12,6 +12,7 @@ import web3 from "../web3.png"
 import web4 from "../web4.png"
 import web5 from "../web5.png"
 import web6 from "../web6.png"
+import web7 from "../web7.png"
 import { useState} from "react"
 
 
@@ -115,6 +116,9 @@ export default function Home() {
               </div>
               <div className='basis-1/2 flex-1'>
                 <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+              </div>
+              <div className='basis-1/2 flex-1'>
+                <a href=""><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
