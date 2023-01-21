@@ -33,7 +33,7 @@ export default function Home() {
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl font-burtons text-white'>thill</h1>
               <ul className='flex items-center'>
-              <li><a href='https://www.linkedin.com/in/terrill-hilliard-7b3637254/' className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>Resume</a></li>
+              <li><a href='/resume.pdf' className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>Resume</a></li>
                 <li><a href="https://github.com/terrillhilliard" className=' bg-gradient-to-r from-teal-500 bg-teal-500 text-white px-4 py-2 rounded-md ml-8 font-burtons'>GitHub</a></li>
               </ul>
             </nav>
