@@ -13,6 +13,8 @@ import web4 from "../web4.png"
 import web5 from "../web5.png"
 import web6 from "../web6.png"
 import web7 from "../web7.png"
+import web8 from "../web8.png"
+import web10 from "../web10.png"
 import { useState} from "react"
 
 
@@ -99,11 +101,11 @@ export default function Home() {
             </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+            <div className='basis-1/2 flex-1'>
+                <a href="https://terrillweather.herokuapp.com/"><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/cv"><Image src={web2} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+                <a href="https://terrilltodolist.herokuapp.com/"><Image src={web8} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
                 <a href="https://terrillhilliard.github.io/drumkit"><Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
@@ -112,13 +114,13 @@ export default function Home() {
                 <a href="https://terrillhilliard.github.io/dicegame"><Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/simongame"><Image src={web5} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+                <a href="https://terrillhilliard.github.io/simongame"><Image src={web10} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
                 <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <a href="https://terrillweather.herokuapp.com/"><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
+                <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
