@@ -101,25 +101,25 @@ export default function Home() {
             </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/2 flex-1'>
+            <div className='basis-1/3 flex-1'>
                 <a href="https://terrillweather.herokuapp.com/"><Image src={web7} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrilltodolist.herokuapp.com/"><Image src={web8} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrillhilliard.github.io/drumkit"><Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrillhilliard.github.io/dicegame"><Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrillhilliard.github.io/simongame"><Image src={web10} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
-              <div className='basis-1/2 flex-1'>
+              <div className='basis-1/3 flex-1'>
                 <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
