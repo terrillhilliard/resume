@@ -111,16 +111,7 @@ export default function Home() {
                 <a href="https://terrillhilliard.github.io/drumkit"><Image src={web3} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
               <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/dicegame"><Image src={web4} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
-              </div>
-              <div className='basis-1/2 flex-1'>
                 <a href="https://terrillhilliard.github.io/simongame"><Image src={web10} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
-              </div>
-              <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/login"><Image src={web6} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
-              </div>
-              <div className='basis-1/2 flex-1'>
-                <a href="https://terrillhilliard.github.io/tindog"><Image src={web1} className="rounded-lg object-cover" alt="A beautiful landscape with mountains and a lake"></Image></a>
               </div>
             </div>
           </section>
